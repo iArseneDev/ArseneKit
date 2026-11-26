@@ -6,6 +6,7 @@ ArseneKit is a growing collection of free, browser-based tools built by [iArsene
 
 - **Image Converter** — /image-converter/ converts browser-supported images to PNG, JPG, or WebP, with optional resizing. Image processing happens locally in the browser; files are not uploaded.
 - **Live Code Editor** — /live-code-editor/ provides HTML, CSS, and JavaScript tabs, CodeMirror syntax highlighting, a sandboxed live preview, and standalone HTML download.
+- **JSON Formatter & Validator** — /json-formatter/ formats, minifies, validates, and optionally sorts JSON in the browser.
 
 The platform supports light and dark themes. It follows the visitor's system preference by default and remembers a manual choice in local storage.
 
@@ -42,5 +43,6 @@ Each tool is generated as its own static page, so visitors can link directly to 
 - app/components/theme-toggle.js — shared theme control
 - app/image-converter/ — image conversion page and browser-side logic
 - app/live-code-editor/ — CodeMirror editor page
+- app/json-formatter/ — JSON formatting and validation page
 - app/globals.css — shared and responsive platform styles
 - public/archive/ — previous editor source, marked noindex

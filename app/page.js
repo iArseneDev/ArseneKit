@@ -17,6 +17,15 @@ const tools = [
     icon: '</>',
     status: 'Available now',
   },
+  {
+    number: '03',
+    category: 'DEVELOPMENT',
+    title: 'JSON Formatter & Validator',
+    description: 'Format, minify, sort, and validate JSON with clear error locations.',
+    href: '/json-formatter/',
+    icon: '{ }',
+    status: 'Available now',
+  },
 ];
 
 export default function HomePage() {
