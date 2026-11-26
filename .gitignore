@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.pnp.*
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Deployment tooling
+.vercel/
+.wrangler/
+
+# Local environment and secrets
+.env*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
