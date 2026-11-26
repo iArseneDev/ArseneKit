@@ -38,6 +38,7 @@ Import the repository into Vercel. vercel.json selects Vercel’s “Other” pr
 - **Root directory:** the repository root
 
 Each tool is generated as its own static page, so visitors can link directly to it.
+The sitemap is generated at `/sitemap.xml`. Set `NEXT_PUBLIC_SITE_URL` in Vercel to the production origin if it differs from `https://arsenekit.vercel.app`.
 
 ## Project structure
 
