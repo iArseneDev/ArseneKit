@@ -7,9 +7,8 @@ node_modules/
 out/
 build/
 
-# Deployment tooling
+# Vercel project files
 .vercel/
-.wrangler/
 
 # Local environment and secrets
 .env*

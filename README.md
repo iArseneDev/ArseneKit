@@ -1,6 +1,6 @@
 # ArseneKit
 
-ArseneKit is a growing collection of free, browser-based tools built by [iArseneDev](https://github.com/iArseneDev). Each tool has its own route and page metadata. The site is built with Next.js and React and exported as static files for Cloudflare Pages.
+ArseneKit is a growing collection of free, browser-based tools built by [iArseneDev](https://github.com/iArseneDev). Each tool has its own route and page metadata. The site uses Next.js and React and is statically exported for deployment on Vercel.
 
 ## Tools
 
@@ -27,15 +27,15 @@ Open the local URL printed by Next.js, usually http://localhost:3000.
 
 Next.js creates the static site in the out directory.
 
-## Deploy to Cloudflare Pages
+## Deploy to Vercel
 
-Connect the repository to Cloudflare Pages and set:
+Import the repository into Vercel. Vercel detects Next.js and uses the package manager declared in package.json.
 
 - **Build command:** pnpm build
-- **Build output directory:** out
-- **Root directory:** / (the repository root)
+- **Output directory:** out, set in vercel.json
+- **Root directory:** the repository root
 
-Every tool page is statically generated at its own path, so links can point directly to a tool.
+Each tool is generated as its own static page, so visitors can link directly to it.
 
 ## Project structure
 
