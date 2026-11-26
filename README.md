@@ -30,7 +30,7 @@ Next.js creates the static site in the out directory.
 
 ## Deploy to Vercel
 
-Import the repository into Vercel. vercel.json explicitly selects Next.js, installs dependencies with pnpm, runs the production build, and publishes the static export.
+Import the repository into Vercel. vercel.json selects Vercel’s “Other” preset so Vercel serves Next.js’s static export directly, while still installing dependencies with pnpm and running the production build.
 
 - **Install command:** pnpm install --frozen-lockfile
 - **Build command:** pnpm build
